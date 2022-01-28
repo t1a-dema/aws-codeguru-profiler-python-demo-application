@@ -14,6 +14,7 @@ SITE = 'http://www.python.org/'
 CW_NAMESPACE = 'ProfilerPythonDemo'
 S3_BUCKET = os.environ['S3_BUCKET']
 
+AWS_ACCESS_KEY_ID = 'sdfghjgGzh678rfgh' # Added to test
 
 def lambda_handler(event, context):
     # Make some network calls using urllib and s3 client.
